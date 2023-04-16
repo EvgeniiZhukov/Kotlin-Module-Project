@@ -1,5 +1,6 @@
 import java.util.*
 
+
 interface SystemMenu {
     abstract val name : String
     abstract val listOfItems : MutableList<out SystemMenu>
